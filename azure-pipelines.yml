@@ -54,7 +54,6 @@ stages:
         make lint
       workingDirectory: $(projectRoot)
       displayName: 'Run lint tests'
-
     - task: ArchiveFiles@2
       displayName: 'Archive files'
       inputs:
